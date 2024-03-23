@@ -3,7 +3,7 @@
 [![Downloads][downloads-img]][downloads-url]
 [![Issues][issues-img]][issues-url]
 [![Semantic Release][semantic-release-img]][semantic-release-url]
-![GitHub Sponsors](https://img.shields.io/github/sponsors/bupd)
+[![GitHub Sponsors](https://img.shields.io/github/sponsors/bupd)][sponsors-url]
 
 ## Description
 
@@ -75,4 +75,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](https://gi
 [issues-url]:https://github.com/bupd/upi-parser/issues
 [semantic-release-img]:https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg
 [semantic-release-url]:https://github.com/bupd/upi-parser
-
+[sponsors-url]:https://github.com/bupd/upi-parser/issues
