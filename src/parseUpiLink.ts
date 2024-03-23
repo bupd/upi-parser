@@ -1,6 +1,6 @@
 import { UPIObject } from "./types";
 
-export function parseUPI(upiLink: string): UPIObject | null {
+export function parseUPILink(upiLink: string): UPIObject | null {
   if (!upiLink.startsWith("upi://pay?")) {
     return null;
   }
@@ -25,10 +25,4 @@ export function parseUPI(upiLink: string): UPIObject | null {
 
   return upiObject;
 }
-
-const upiLink =
-  "upi://pay?pa=bupdprasanth@oksbi&pn=Prasanth%20B&am=200&cu=INR&tn=Vanakkam&";
-const upiData = parseUPI(upiLink);
-
-console.log(upiData);
 
