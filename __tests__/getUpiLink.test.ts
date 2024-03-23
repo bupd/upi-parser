@@ -1,6 +1,6 @@
-import { getUPILink } from "./getUpiLink"; // Assuming the filename is getUpiLink.ts
+import { getUPILink } from "../src/getUpiLink"; // Assuming the filename is getUpiLink.ts
 import { describe, expect, test } from "@jest/globals";
-import { UPIObject } from "./types";
+import { UPIObject } from "../src/types";
 
 describe("getUpiLink", () => {
   it("should create a valid UPI link", () => {
@@ -25,4 +25,3 @@ describe("getUpiLink", () => {
     // Add more assertions as needed to validate the structure of the UPI link
   });
 });
-

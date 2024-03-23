@@ -1,6 +1,6 @@
-import { parseUPILink } from "./parseUpiLink"; // Assuming the filename is getUpiLink.ts
+import { parseUPILink } from "../src/parseUpiLink"; // Assuming the filename is getUpiLink.ts
 import { describe, expect, test } from "@jest/globals";
-import { UPIObject } from "./types";
+import { UPIObject } from "../src/types";
 
 describe("parseUPILink", () => {
   it("should parse a valid UPI Link", () => {
@@ -21,4 +21,3 @@ describe("parseUPILink", () => {
     expect(upiObject).toEqual(UPiObject);
   });
 });
-
