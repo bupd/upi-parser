@@ -21,3 +21,4 @@ describe("parseUPILink", () => {
     expect(upiObject).toEqual(UPiObject);
   });
 });
+
