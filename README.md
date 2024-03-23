@@ -3,6 +3,7 @@
 [![Downloads][downloads-img]][downloads-url]
 [![Issues][issues-img]][issues-url]
 [![Semantic Release][semantic-release-img]][semantic-release-url]
+![GitHub Sponsors](https://img.shields.io/github/sponsors/bupd)
 
 ## Description
 
