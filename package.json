@@ -11,9 +11,9 @@
   },
   "homepage": "https://bupd.github.io/",
   "repository": {
-    "type": "git",
-    "url": "(https://github.com/bupd/upi-parser.git)"
+    "url": "https://github.com/bupd/upi-parser.git"
   },
+  
   "keywords": [
     "UPI",
     "Parser",
