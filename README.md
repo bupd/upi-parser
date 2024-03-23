@@ -1,5 +1,8 @@
 # upi-parser
-A Simple Upi Links Parser
+[![npm package][npm-img]][npm-url]
+[![Downloads][downloads-img]][downloads-url]
+[![Issues][issues-img]][issues-url]
+[![Semantic Release][semantic-release-img]][semantic-release-url]
 
 ## Description
 
@@ -62,4 +65,13 @@ Please make sure to follow the existing code style and add tests for any new fea
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/bupd/upi-parser/blob/main/LICENSE) file for details.
+
+[downloads-img]:https://img.shields.io/npm/dt/upi-parser
+[downloads-url]:https://www.npmtrends.com/upi-parser
+[npm-img]:https://img.shields.io/npm/v/upi-parser
+[npm-url]:https://www.npmjs.com/package/upi-parser
+[issues-img]:https://img.shields.io/github/issues/bupd/upi-parser
+[issues-url]:https://github.com/bupd/upi-parser/issues
+[semantic-release-img]:https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg
+[semantic-release-url]:https://github.com/bupd/upi-parser
 
