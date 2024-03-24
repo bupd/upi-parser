@@ -2,7 +2,7 @@ import { UPIObject } from "./types";
 
 export function getUPILink(
   upiObject: UPIObject,
-  amount: number,
+  amount: string,
   message: string,
 ): string {
   // amount = parseInt(amount.toFixed(2).replace(".", ""), 10) || 0;
@@ -10,9 +10,10 @@ export function getUPILink(
   const urlParams = new URLSearchParams({
     vpa: upiObject.vpa || "",
     pn: upiObject.merchantName || "",
-    pa: upiObject.merchantCode || "",
-    am: amount.toString(),
+    pa: upiObject.merchantId || "",
+    am: amount,
     tn: message || "",
+    mc: upiObject.merchantCode || "",
   });
 
   return `upi://pay?${urlParams.toString()}`;

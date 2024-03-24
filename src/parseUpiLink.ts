@@ -10,10 +10,11 @@ export function parseUPILink(upiLink: string): UPIObject | null {
   const upiObject: UPIObject = {
     vpa: urlParams.get("a"),
     merchantName: urlParams.get("pn"),
-    merchantCode: urlParams.get("pa"),
+    merchantId: urlParams.get("pa"),
     currency: urlParams.get("cu"),
     amount: urlParams.get("am"),
     tn: urlParams.get("tn"),
+    merchantCode: urlParams.get("mc"),
   };
 
   // Handle missing optional parameters
@@ -25,4 +26,3 @@ export function parseUPILink(upiLink: string): UPIObject | null {
 
   return upiObject;
 }
-
