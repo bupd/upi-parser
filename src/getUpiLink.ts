@@ -11,7 +11,7 @@ export function getUPILink(
     vpa: upiObject.vpa || "",
     pn: upiObject.merchantName || "",
     pa: upiObject.merchantId || "",
-    am: amount,
+    am: amount || "",
     tn: message || "",
     mc: upiObject.merchantCode || "",
   });
